@@ -8,6 +8,7 @@ public class HelloWorldController {
 	
 	@GetMapping("/message")
 	public String getMessage() {
+		int x=10;
 		return "Pankaj Sir Academy - Bengaluru";
 	}
 
